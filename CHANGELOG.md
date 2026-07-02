@@ -158,7 +158,7 @@ completes).
 
 ## [0.8.0] — 2026-06-18
 
-Substrate upgrade informed by external audit of [AIP v0.3.0](https://github.com/sunilp/aip) (`draft-prakash-aip-00`). Closes Bug 11 (P_BIND falsification) via domain-separated signing strings. Adds structured audit context, normative fault taxonomy, three-profile policy model, and bilateral-receipt floor. Spec v1.3.0-draft → v1.4.0-draft. Pre-registered at tag `v0.8.0-pre-registration` (commit `f29b56c`) — the frozen artifact the HotNets paper evidence cites.
+Substrate upgrade informed by external audit of [AIP v0.3.0](https://github.com/sunilp/aip) (`draft-prakash-aip-00`). Closes Bug 11 (P_BIND falsification) via domain-separated signing strings. Adds structured audit context, normative fault taxonomy, three-profile policy model, and bilateral-receipt floor. Spec v1.3.0-draft → v1.4.0-draft. Pre-registered at tag `v0.8.0-pre-registration` (commit `f29b56c`) — the frozen artifact the accompanying paper's evidence cites.
 
 ### Added
 
@@ -208,14 +208,14 @@ Each release pre-registers its own tag and re-runs the Phase A / B / B-2 confirm
 
 Frozen at tag `v0.8.0-pre-registration` (commit `f29b56c`):
 
-- **D1** — threat coverage matrix at `~/Desktop/PACT_HotNets_Paper/D1_threat_coverage_matrix.md`.
+- **D1** — threat coverage matrix (`D1_threat_coverage_matrix.md`, research archive).
 - **D2** — Tamarin + ProVerif 9/9 lemmas (Run 3 logs at `spec/models/run_logs/run3_*.txt`).
 - **D3** — calibrated harness with provenance stamps (M1 K-defect manifest).
 - **D3.5** — §12 ablation matrix (clean 5×5 diagonal Mac + NUC).
 - **D4** — Phase A confirmatory: Mac gemma4:e4b + NUC gemma3:12b. 347/348 cross-machine cell agreement (H5 invariance under heterogeneous LLM + OS).
 - **D4 supplement** — M1 K-sweep, sensitivity 0.6 at K=5.
 - **D5** — Phase B + B-2 exploratory: 3 adversaries (gemma4:e4b on Mac, gemma3:12b on NUC, Qwen3-235B-A22B via DeepInfra) × 5 Gap-B targets × 210+ iterations = **0 real findings** on v0.7, **0 real findings** on v0.8 re-run.
-- **D6** — PACT vs AIP + v0.7 vs v0.8 comparison at `~/Desktop/PACT_HotNets_Paper/D6_PACT_VS_AIP_AND_V07_VS_V08.md`.
+- **D6** — PACT vs AIP + v0.7 vs v0.8 comparison (`D6_PACT_VS_AIP_AND_V07_VS_V08.md`, research archive).
 
 ## [0.7.1] — 2026-06-12
 
@@ -324,7 +324,7 @@ Two bug fixes for issues surfaced by C-tier cluster testing (#29, #30), one rate
 
 ### Release cadence
 
-HotNets paper deadline 2026-07-16. Subsequent releases will continue shipping fixes and Stage 2 probe results as the cross-machine experiments complete. This release reflects local-loopback validation; cross-machine empirical results follow.
+A paper on this work is in preparation. Subsequent releases will continue shipping fixes and Stage 2 probe results as the cross-machine experiments complete. This release reflects local-loopback validation; cross-machine empirical results follow.
 
 ## [0.5.4] — 2026-06-05
 

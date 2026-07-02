@@ -245,7 +245,7 @@ the same v0.8 design:
 The paper can claim: "two independent methodologies, applied independently,
 arrived at the same fix." That is stronger than either alone.
 
-**For HotNets paper claim:** Paper §3 (System design) describes the v0.8
+**For paper claim:** Paper §3 (System design) describes the v0.8
 domain-separated holder_proof. Paper §4 (Case study) adds Bug 11 (the v0.7
 missing domain separation, surfaced by Tamarin Run 2 + closed in v0.8) to
 the Bugs 1-10 case study. Paper §5.1 cites Run 3 as the closure evidence.

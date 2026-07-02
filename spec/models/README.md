@@ -4,7 +4,7 @@ Symbolic models discharging the security claims of [`PACT_v1.md`](../PACT_v1.md)
 under a Dolev–Yao attacker with perfect `Sign/Verify` and `h()` (SHA-256).
 
 These models implement the lemma sketches in
-[`PACT_RESEARCH_PLAN.md` §Appendix A](../../../../Desktop/PACT_HotNets_Paper/PACT_RESEARCH_PLAN.md)
+`PACT_RESEARCH_PLAN.md` §Appendix A (research archive)
 and are part of the Stage 2 pre-registration evidence: they ship under the
 `v0.7-pre-registration` tag so any later spec change is visible as a diff
 against a machine-checkable artifact.
@@ -75,7 +75,7 @@ Per §A.4 of the research plan, the symbolic boundary stops here:
 - Runtime cost (declarative-honest in v0.7; runtime metering is v0.8 roadmap).
 - Wall-clock liveness, side-channel timing.
 - Anything in the declared out-of-scope set
-  ([`D1_threat_coverage_matrix.md`](../../../../Desktop/PACT_HotNets_Paper/D1_threat_coverage_matrix.md)
+  (`D1_threat_coverage_matrix.md`, research archive;
   Gap classes B and C).
 
 The paper §6 must continue to name these as model boundaries, not as proven.
